@@ -13,8 +13,8 @@ while inpt != 'Done':
     inpt = input()
 
 if free_area < needed_area_for_boxes:
-    sum = needed_area_for_boxes - free_area
-    print(f'No more free space! You need {sum} Cubic meters more.')
-else: sum = free_area - needed_area_for_boxes; print(f'{sum} Cubic meters left.')
+    the_sum = needed_area_for_boxes - free_area
+    print(f'No more free space! You need {the_sum} Cubic meters more.')
+else: the_sum = free_area - needed_area_for_boxes; print(f'{the_sum} Cubic meters left.')
 
 
